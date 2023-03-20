@@ -1,40 +1,23 @@
-### Features
-- add central lines form (#3826)
-- add central lines form (#3831)
-- Background image uploading (#3829)
-- Background image uploading (#3829)
-- Ability to access discharged patients when you don't remember the name (#3811)
-- Move consult note to "Notes" menu (#3804)
-- Reasons for theatre cancellations (#3794)
-- add indications to op note (and pre-populate from scheduled procedure when possible) (#3776)
+# Release Notes - v43
 
+## New Features
 
-### Enhancements
-- Feedback: Emma Gibson - Widget: replace this date with the last refresh date  (#3842)
-- Feedback: Emma Gibson - Widget: hide lab requests here (#3842)
-- Feedback: Andreas Cambitsis - Widget: the toggle button colour is Grey when it’s active (once saved) making it seem inactive. (#3842)
-- Feedback: Andreas Cambitsis - Widget: this takes a long time on a bad connection. maybe address with a shorter timeout (#3842)
-- Feedback: Andreas Cambitsis - Widget: can we have a notification when on the hamburger menu if the are pending images (#3842)
-- Feedback: Emma Gibson - Widget: when I change the status from cancelled to completed, the cancellation text field is hidden but the actual text is showing in the next box (#3842)
-- Feedback: Emma Gibson - Widget: when changing status to cancelled, text appears in the wrong box (#3842)
-- Feedback: Andreas Cambitsis - Widget: UI needs improvement. Truncates name and no visual queue to see if a note is present.  (#3836)
-- Feedback: Andreas Cambitsis - Widget: UI needs improvement. Truncates name and no visual queue to see if a note is present.  (#3825)
-- Feedback: Emma Gibson - Widget: add dates here (#3825)
+- Added central lines form (#13511)
+- Added functionality to diagnose login and other issues (#13563, #13563)
+- Added background image upload functionality (#12957, #13169, #13540)
+- Ability to access discharged patients when you don't remember the name (#13545)
+- Added cancel reason dialog box for swipe and cancel reason field on procedure screen (#13548)
+- Added indications to op note (and pre-populate from scheduled procedure when possible) (#13564)
 
+## Enhancements
 
-### Bugs
-- Feedback: Andre Theron - null: when entering the DOB manually it asks for mm/dd/yyyy. can it be changed to day first so dd/mm/yyyy? (#3842)
-- Feedback: Sarra Beattie - null: able to add future date for DOB. unable to see middle name to differentiate patients with the same name. (#3842)
-- Feedback: Sarra Beattie - null: back button format should be 'active' (blue with white text) (#3842)
-- Feedback: Mohit Garg - null: When going from Tasks homescreen patient name isn't displayed. (#3842)
-- Feedback: Jaco Minnaar - null: I can come back to this screen after tapping skip when hitting back (#3842)
-- Feedback: Emma Gibson - null: I can go back to this form from the patient dashboard (#3842)
-- Feedback: Emma Gibson - null: we need validation here -- can't continue unless option 2 or 3 is selected (#3842)
-- Feedback: Emma Gibson - null: today is 10 march. why is the task overdue? (#3842)
-- Feedback: Emma Gibson - null: Create morbidity -- goes back to home screen after adding morbidity (#3842)
-- Feedback: Emma Gibson - null: when an image is open, the back button should be more obvious (#3829)
+- Moved consult and order alphabetically (#13665)
+- Various UI improvements (#13560, #13623)
+- Mechanism to do a network health check/reset network connection (#13563)
+- Improved visibility of the back button when an image is open (#12957)
 
+## Bug Fixes
 
-### Improvements
-- Mechanism to do a network health check / reset network connection (#3841)
-- Mechanism to do a network health check / reset network connection (#3830)
+- Fixed various issues with date format, input validation, back button format, and navigation (#13041, #13148, #13150, #13403, #13421, #13465, #13468, #13470, #13485, #13498, #13500, #13559, #13753, #13754, #13763, #13764)
+- Fixed UI truncation and added visual cues for notes presence in the Widget (#13560)
+- Fixed issues with the toggle button color and text display in the Widget (#13559, #13763,
