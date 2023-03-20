@@ -5,5 +5,5 @@
 - [Create patient file and admit patient](https://loom.com/share/de1817ce929d43bd8d865b944eaacfa3)
 - [Patient lists](https://www.loom.com/share/2ae1a2e5e4574e95991c7c4d8f1e6edb)
 - [Lab results](https://www.loom.com/share/697b98b2326347b59253556f961a3d6c)
-- More to come...
+
 
