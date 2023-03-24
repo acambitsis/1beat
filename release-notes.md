@@ -2,6 +2,8 @@
 
 ## New Features & Enhancements
 
+- Addition of 3 lists (consults, radiology and histology)
+- Addition of bed number field
 - Added central lines form (#13511)
 - Added background image upload functionality (#12957, #13169, #13540)
 - Ability to access discharged patients when you don't remember the name (#13545)
